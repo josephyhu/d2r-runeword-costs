@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Runewords</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Runewords</h1>
+        </header>
+        <main>
+            <input type="button" id="cube" value="Cube">
+            <input type="button" id="gold" value="Gold">
+            <section id="runewords"></section>
+            <section id="methodology">
+                <h2>Methodology</h2>
+                <h3>Gems</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Gem</th>
+                            <th>Cube Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chipped Gem</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Flawed Gem</td>
+                            <td>3 Chipped Gems</td>
+                        </tr>
+                        <tr>
+                            <td>Gem</td>
+                            <td>3 Flawed Gems</td>
+                        </tr>
+                        <tr>
+                            <td>Flawless Gem</td>
+                            <td>3 Gems</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Runes</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rune</th>
+                            <th>Cube Cost</th>
+                            <th>Gold Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>El Rune</td>
+                            <td>1</td>
+                            <td>560</td>
+                        </tr>
+                        <tr>
+                            <td>Eld Rune</td>
+                            <td>3 El Runes</td>
+                            <td>560</td>
+                        </tr>
+                        <tr>
+                            <td>Tir Rune</td>
+                            <td>3 Eld Runes</td>
+                            <td>1260</td>
+                        </tr>
+                        <tr>
+                            <td>Nef Rune</td>
+                            <td>3 Tir Runes</td>
+                            <td>1260</td>
+                        </tr>
+                        <tr>
+                            <td>Eth Rune</td>
+                            <td>3 Nef Runes</td>
+                            <td>2240</td>
+                        </tr>
+                        <tr>
+                            <td>Ith Rune</td>
+                            <td>3 Eth Runes</td>
+                            <td>2240</td>
+                        </tr>
+                        <tr>
+                            <td>Tal Rune</td>
+                            <td>3 Ith Runes</td>
+                            <td>3500</td>
+                        </tr>
+                        <tr>
+                            <td>Ral Rune</td>
+                            <td>3 Tal Runes</td>
+                            <td>5040</td>
+                        </tr>
+                        <tr>
+                            <td>Ort Rune</td>
+                            <td>3 Ral Runes</td>
+                            <td>6860</td>
+                        </tr>
+                        <tr>
+                            <td>Thul Rune</td>
+                            <td>3 Ort Runes</td>
+                            <td>8960</td>
+                        </tr>
+                        <tr>
+                            <td>Amn Rune</td>
+                            <td>3 Thul Runes + 1 Chipped Topaz</td>
+                            <td>11340</td>
+                        </tr>
+                        <tr>
+                            <td>Sol Rune</td>
+                            <td>3 Amn Runes + 1 Chipped Amethyst</td>
+                            <td>14000</td>
+                        </tr>
+                        <tr>
+                            <td>Shael Rune</td>
+                            <td>3 Sol Runes + 1 Chipped Sapphire</td>
+                            <td>16940</td>
+                        </tr>
+                        <tr>
+                            <td>Dol Rune</td>
+                            <td>3 Shael Runes + 1 Chipped Ruby</td>
+                            <td>20160</td>
+                        </tr>
+                        <tr>
+                            <td>Hel Rune</td>
+                            <td>3 Dol Runes + 1 Chipped Emerald</td>
+                            <td>1715</td>
+                        </tr>
+                        <tr>
+                            <td>Io Rune</td>
+                            <td>3 Hel Runes + 1 Chipped Diamond</td>
+                            <td>27440</td>
+                        </tr>
+                        <tr>
+                            <td>Lum Rune</td>
+                            <td>3 Io Runes + 1 Flawed Topaz</td>
+                            <td>31500</td>
+                        </tr>
+                        <tr>
+                            <td>Ko Rune</td>
+                            <td>3 Lum Runes + 1 Flawed Amethyst</td>
+                            <td>35840</td>
+                        </tr>
+                        <tr>
+                            <td>Fal Rune</td>
+                            <td>3 Ko Runes + 1 Flawed Sapphire</td>
+                            <td>40460</td>
+                        </tr>
+                        <tr>
+                            <td>Lem Rune</td>
+                            <td>3 Fal Runes + 1 Flawed Ruby</td>
+                            <td>45360</td>
+                        </tr>
+                        <tr>
+                            <td>Pul Rune</td>
+                            <td>3 Lem Runes + 1 Flawed Emerald</td>
+                            <td>50540</td>
+                        </tr>
+                        <tr>
+                            <td>Um Rune</td>
+                            <td>2 Pul Runes + 1 Flawed Diamond</td>
+                            <td>56000</td>
+                        </tr>
+                        <tr>
+                            <td>Mal Rune</td>
+                            <td>2 Um Runes + 1 Topaz</td>
+                            <td>61740</td>
+                        </tr>
+                        <tr>
+                            <td>Ist Rune</td>
+                            <td>2 Mal Runes + 1 Amethyst</td>
+                            <td>67760</td>
+                        </tr>
+                        <tr>
+                            <td>Gul Rune</td>
+                            <td>2 Ist Runes + 1 Sapphire</td>
+                            <td>74060</td>
+                        </tr>
+                        <tr>
+                            <td>Vex Rune</td>
+                            <td>2 Gul Runes + 1 Ruby</td>
+                            <td>80640</td>
+                        </tr>
+                        <tr>
+                            <td>Ohm Rune</td>
+                            <td>2 Vex Runes + 1 Emerald</td>
+                            <td>87500</td>
+                        </tr>
+                        <tr>
+                            <td>Lo Rune</td>
+                            <td>2 Ohm Runes + 1 Diamond</td>
+                            <td>94640</td>
+                        </tr>
+                        <tr>
+                            <td>Sur Rune</td>
+                            <td>2 Lo Runes + 1 Flawless Topaz</td>
+                            <td>102060</td>
+                        </tr>
+                        <tr>
+                            <td>Ber Rune</td>
+                            <td>2 Sur Runes + 1 Flawless Amethyst</td>
+                            <td>109760</td>
+                        </tr>
+                        <tr>
+                            <td>Jah Rune</td>
+                            <td>2 Ber Runes + 1 Flawless Sapphire</td>
+                            <td>117740</td>
+                        </tr>
+                        <tr>
+                            <td>Cham Rune</td>
+                            <td>2 Jah Runes + 1 Flawless Ruby</td>
+                            <td>126000</td>
+                        </tr>
+                        <tr>
+                            <td>Zod Rune</td>
+                            <td>2 Cham Runes + 1 Flawless Emerald</td>
+                            <td>134540</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
